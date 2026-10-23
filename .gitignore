@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Personal data and logs
+data/
+*.log
+
+# Local settings
+.kivy/
+
+# Backup and old versions
+*_backup.py
+*_backup_*.py
+*.before_*
+
+# Secrets
+.env
+.env.*
+!.env.example
